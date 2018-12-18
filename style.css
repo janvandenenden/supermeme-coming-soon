@@ -1,0 +1,73 @@
+.jumbotron {
+  text-align: center;
+  display: flex;
+  align-items:center;
+  margin:0px;
+}
+
+#top {
+  height:100vh;
+}
+
+#top, #social-media {
+  background-color:#D82122 ;
+}
+
+#social-media {
+}
+
+#top h4 {
+  padding:10px 0px;
+}
+
+#how-we-work {
+  background-color: white;
+}
+
+#how-we-work h1, #how-we-work h4, #how-we-work p, #how-we-work .oi {
+  color:#D82122;
+}
+
+.oi {
+  font-size: 28px;
+}
+
+.paralax{
+  background-image: url('img/coming-soon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height:200px;
+}
+
+.process-card {
+  padding-bottom: 10px;
+}
+
+a {
+  color:white;
+}
+
+a:hover .fab {
+  color:white;
+}
+
+.fab {
+  font-size: 32px;
+}
+
+h1 {
+  font-family: "Futura", Trebuchet MS, Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: -0.05em;
+  color: white;
+  padding-bottom:30px;
+}
+
+h4,p {
+  font-family:arial;
+  color:white;
+  font-size: 18px;
+}
