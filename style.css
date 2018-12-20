@@ -37,8 +37,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-  min-height:200px;
+  min-height: 400px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .paralax {
+    background-attachment: fixed;
+    min-height: 200px;
+  }
 }
 
 .process-card {
